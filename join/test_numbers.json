@@ -1,0 +1,23 @@
+{
+  "expression": {
+    "#join": "$.products.*.price",
+    "#separator": ","
+  },
+  "context": {
+    "products": [
+      {
+        "title": "Beer",
+        "price": 0.001
+      },
+      {
+        "title": "Pizza",
+        "price": 200.21
+      },
+      {
+        "title": "Brownies",
+        "price": 0.3
+      }
+    ]
+  },
+  "result": "0.001,200.21,0.3"
+}

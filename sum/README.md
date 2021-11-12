@@ -1,6 +1,7 @@
 # Transmute `#sum`
 
-Sum of values.
+Sum of values. Values are expected to be numbers, invalid values are silently
+ignored.
 
 ```javascript
 let expression = {
@@ -15,10 +16,10 @@ let context = {
             "price": 2
         },
         {
-            "price": "invalid value",
+            "price": "invalid value"
         },
         {
-            "price": 3,
+            "price": 3
         }
     ]
 }

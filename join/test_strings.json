@@ -1,0 +1,13 @@
+{
+  "expression": {
+    "#join": "$.tags"
+  },
+  "context": {
+    "tags": [
+      "One",
+      "Two",
+      "Three"
+    ]
+  },
+  "result": "OneTwoThree"
+}
