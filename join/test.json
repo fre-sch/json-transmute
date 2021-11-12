@@ -1,0 +1,23 @@
+{
+  "expression": {
+    "#join": "$.products.*.title",
+    "#separator": " | "
+  },
+  "context": {
+    "products": [
+      {
+        "title": "Beer",
+        "price": 1
+      },
+      {
+        "title": "Pizza",
+        "price": 2
+      },
+      {
+        "title": "Brownies",
+        "price": 3
+      }
+    ]
+  },
+  "result": "Beer | Pizza | Brownies"
+}

@@ -1,0 +1,43 @@
+{
+  "expression": {
+    "#map": "$.products.*",
+    "title": "$.it.title.en",
+    "price": "$.it.price.USD"
+  },
+  "context": {
+    "products": [
+      {
+        "title": {
+          "en": "Beer",
+          "de": "Bier"
+        },
+        "price": {
+          "USD": 12.0,
+          "EUR": 9.99
+        }
+      },
+      {
+        "title": {
+          "ja": "豚カツ",
+          "de": "Schweineschnitzel",
+          "en": "Pork cutlet, breaded"
+        },
+        "price": {
+          "USD": 3.0,
+          "EUR": 2.49,
+          "JPY": 300
+        }
+      }
+    ]
+  },
+  "result": [
+    {
+      "title": "Beer",
+      "price": 9.99
+    },
+    {
+      "title": "Pork cutlet, breaded",
+      "price": 3.0
+    }
+  ]
+}

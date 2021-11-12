@@ -1,0 +1,11 @@
+{
+  "expression": {
+    "#format": "Hello {person.firstname}!"
+  },
+  "context": {
+    "person": {
+      "firstname": "Berta"
+    }
+  },
+  "result": "Hello Berta!"
+}

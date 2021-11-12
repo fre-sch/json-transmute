@@ -1,0 +1,25 @@
+{
+  "expression": {
+    "#map": "$.tags",
+    "title": "$.it",
+    "price": "$.parent.defaultPrice"
+  },
+  "context": {
+    "defaultPrice": 3.00,
+    "tags": ["beer", "wine", "peanuts"]
+  },
+  "result": [
+    {
+        "title": "beer",
+        "price": 3.00
+    },
+    {
+        "title": "wine",
+        "price": 3.00
+    },
+    {
+        "title": "peanuts",
+        "price": 3.00
+    }
+  ]
+}

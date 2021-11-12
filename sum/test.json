@@ -1,0 +1,22 @@
+{
+  "expression": {
+    "#sum": "$.products.*.price"
+  },
+  "context": {
+    "products": [
+      {
+        "price": 1
+      },
+      {
+        "price": 2
+      },
+      {
+        "price": "invalid value"
+      },
+      {
+        "price": 3
+      }
+    ]
+  },
+  "result": 6
+}

@@ -1,0 +1,30 @@
+{
+  "expression": {
+    "#coalesce": "$.products"
+  },
+  "context": {
+    "products": [
+      {
+        "title": "one"
+      },
+      {
+        "title": "two"
+      },
+      null,
+      {
+        "title": "three"
+      }
+    ]
+  },
+  "result": [
+    {
+      "title": "one"
+    },
+    {
+      "title": "two"
+    },
+    {
+      "title": "three"
+    }
+  ]
+}

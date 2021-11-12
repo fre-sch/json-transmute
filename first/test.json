@@ -1,0 +1,14 @@
+{
+  "expression": {
+    "#first": "$.*.firstname"
+  },
+  "context": {
+    "ID1": {
+      "firstname": "Alice"
+    },
+    "ID2": {
+      "firstname": "Bob"
+    }
+  },
+  "result": "Albert"
+}

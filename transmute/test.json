@@ -1,0 +1,33 @@
+{
+  "expression": {
+    "#map": {
+      "#transmute": "$.propname"
+    },
+    "label": "$.it.title"
+  },
+  "context": {
+    "propname": "products",
+    "products": [
+      {
+        "title": "one"
+      },
+      {
+        "title": "two"
+      },
+      {
+        "title": "three"
+      }
+    ]
+  },
+  "result": [
+    {
+      "label": "one"
+    },
+    {
+      "label": "two"
+    },
+    {
+      "label": "three"
+    }
+  ]
+}
