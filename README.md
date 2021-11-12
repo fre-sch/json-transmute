@@ -2,9 +2,13 @@
 
 Define transformations of JSON with JSON.
 
-This document does not describe a specific implementation,
-it describes the  Transmute *"protocol"* that implementations
-should adhere to.
+This document does not describe a specific implementation, it describes the
+Transmute *"protocol"* that implementations should adhere to.
+
+Aside from documenting the operations of Transmute, this repository contains
+test JSON files, which can be used to validate an implementation.
+
+## Introduction
 
 ```typescript
 type JSON = null|boolean|number|string|array|object
@@ -96,3 +100,9 @@ Transmute(expression, context) === []
 * [`#map` create arrays](/map/)
 * [`#sum` calculate sum of arrays of numbers](/sum/)
 * [`#transmute` defer evaluation](/transmute/)
+
+## Test validation
+
+Test JSON files define objects with three properties: `expression`, `context`,
+`result`. Implementations are valid, if they're able to produce `result` from
+`expression` and `context`.
