@@ -47,9 +47,9 @@ Transmute(expression, context) === {
 
 ### JSON-Path
 
-Property values must be checked if they're JSON-Path strings, that is, they're
-starting with a `$` (dollar) symbol. In that case, the JSON-Path is evaluated
-against `context` and matching value is retrieved.
+Property values must be checked if they're [JSON-Path](https://goessner.net/articles/JsonPath/)
+strings, that is, they're starting with a `$` (dollar) symbol. In that case,
+the JSON-Path is evaluated against `context` and matching value is retrieved.
 
 ```javascript
 let expression = "$.person.firstname"
