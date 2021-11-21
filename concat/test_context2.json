@@ -1,0 +1,36 @@
+{
+  "expression": {
+    "items": {
+      "#concat": [
+        "$.basketItems",
+        "$.couponItems"
+      ]
+    }
+  },
+  "context": {
+    "basketItems": [
+      {
+        "title": "Cool Gadget",
+        "price": 100
+      }
+    ],
+    "couponItems": [
+      {
+        "title": "20% off Cool Gadget",
+        "price": -20
+      }
+    ]
+  },
+  "result": {
+    "items": [
+      {
+        "title": "Cool Gadget",
+        "price": 100
+      },
+      {
+        "title": "20% off Cool Gadget",
+        "price": -20
+      }
+    ]
+  }
+}

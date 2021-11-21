@@ -94,9 +94,10 @@ Transmute(expression, context) === []
 ## Operators
 
 * [`#coalesce` exclude null values](/coalesce/)
+* [`#concat` concatenate (multiple) arrays](/concat/)
+* [`#extend` copy object and modify](/extend/)
 * [`#first` first element of arrays](/first/)
 * [`#format` string formatting](/format/)
-* [`#join` join array elements into strings](/join/)
 * [`#map` create arrays](/map/)
 * [`#sum` calculate sum of arrays of numbers](/sum/)
 * [`#transmute` defer evaluation](/transmute/)

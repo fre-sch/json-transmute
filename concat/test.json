@@ -1,0 +1,21 @@
+{
+  "expression": {
+    "#concat": [
+      [
+        "one",
+        "two"
+      ],
+      [
+        "three",
+        "four"
+      ]
+    ]
+  },
+  "context": {},
+  "result": [
+    "one",
+    "two",
+    "three",
+    "four"
+  ]
+}

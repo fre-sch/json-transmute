@@ -1,0 +1,22 @@
+{
+  "expression": {
+    "#concat": [
+      "$.tags",
+      [
+        "$.newTag"
+      ]
+    ]
+  },
+  "context": {
+    "tags": [
+      "one",
+      "two"
+    ],
+    "newTag": "three"
+  },
+  "result": [
+    "one",
+    "two",
+    "three"
+  ]
+}
