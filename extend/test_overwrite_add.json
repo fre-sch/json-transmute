@@ -1,0 +1,18 @@
+{
+  "expression": {
+    "#extend": "$.person",
+    "lastName": "Modified",
+    "country": "DefaultCountry"
+  },
+  "context": {
+    "person": {
+      "firstName": "Alice",
+      "lastName": "Tester"
+    }
+  },
+  "result": {
+    "firstName": "Alice",
+    "lastName": "Modified",
+    "country": "DefaultCountry"
+  }
+}

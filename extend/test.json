@@ -1,0 +1,13 @@
+{
+  "expression": {
+    "#extend": {
+      "base": "value"
+    },
+    "key": "value"
+  },
+  "context": {},
+  "result": {
+    "base": "value",
+    "key": "value"
+  }
+}

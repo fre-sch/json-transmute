@@ -1,0 +1,36 @@
+{
+  "expression": {
+    "#extend": "$.person",
+    "orders": ["$.order"]
+  },
+  "context": {
+    "order": {
+      "invoiceNo": "123",
+      "items": [
+        {
+          "title": "Gadget",
+          "price": "$1.00"
+        }
+      ]
+    },
+    "person": {
+      "firstName": "Alice",
+      "lastName": "Tester"
+    }
+  },
+  "result": {
+    "firstName": "Alice",
+    "lastName": "Tester",
+    "orders": [
+      {
+        "invoiceNo": "123",
+        "items": [
+          {
+            "title": "Gadget",
+            "price": "$1.00"
+          }
+        ]
+      }
+    ]
+  }
+}
